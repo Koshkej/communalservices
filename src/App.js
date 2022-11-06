@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Block">
+        <div className="Header">
+          Команда MOON 
+        </div>
+        <div className="SubHeader">
+        <i>
+          Здесь должно было быть полноценное веб-приложение
+        </i>
+        </div>
+        <div className='Text'>
+          <p>Уважаемые организаторы конкурсы. Наша команда впервые принимала участие в подобных мероприятиях, 
+          более того мы получали по сути свой первый опыт в разработке веб-приложений</p>
+          <p>К сожалению, нашей компетенции не хватило в полной мере для разработки требуемого по ТЗ сервиса =(</p>
+          <p>Однако именно благодаря участию в этом мероприятии мы смогли значительно улучшить свои навыки, 
+            изучили на базовом уровне ReactJS и Django (жаль, что слишком поздно)</p>
+          <p>Теперь наша команда надеяться применить свои знания в новых областях и добиться достижений</p>
+          <p>благодарим организаторов за данное мероприятие</p>
+        </div>
+      </div>
     </div>
   );
 }
